@@ -1,0 +1,33 @@
+.bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(120, 84, 161);
+    padding: 5px;
+    z-index: 1000;
+}
+
+.bar img {
+    max-height: 50px; /* Adjust as needed */
+    margin-right: 10px; /* Adds some space between the image and the nav */
+}
+
+.bar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bar nav ul li {
+    display: inline;
+    margin-left: 50px; /* Adds space between each list item */
+}
+
+.bar nav ul li a {
+    text-decoration: none;
+    color: rgb(167, 239, 24);
+}
